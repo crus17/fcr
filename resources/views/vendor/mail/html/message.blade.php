@@ -21,6 +21,23 @@
     {{-- Footer --}}
     @slot('footer')
         @component('mail::footer')
+            <div class="footer-body">
+                <h3>Any questions? we're here to help.</h3>
+                <div class="footer-row">
+                    <div class="footer-col">
+                        <img src="images/email.svg" alt="">
+                        Email us
+                    </div>
+                    <div class="footer-col">
+                        <img src="images/call.svg" alt="">
+                        Call us
+                    </div>
+                    <div class="footer-col">
+                        <img class="footer-img" src="images/chat.svg" alt="">
+                        Chat
+                    </div>
+                </div>
+            </div>
             &copy; {{ date('Y') }} {{ config('app.name') }}. All rights reserved.
         @endcomponent
     @endslot

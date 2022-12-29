@@ -6,6 +6,27 @@
 </head>
 <body>
     <style>
+        .footer-body{
+            font-size: xx-large;
+            background: #eceaea; 
+            padding: 20px;
+            text-align: center;
+        }
+        .footer-row{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            column-gap: 50px;
+        }
+        .footer-col{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        .footer-img{
+            width: 70px;
+            margin-bottom: 5px;
+        }
         @media only screen and (max-width: 600px) {
             .inner-body {
                 width: 100% !important;
