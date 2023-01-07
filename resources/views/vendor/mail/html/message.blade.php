@@ -25,15 +25,15 @@
                 <h3>Any questions? we're here to help.</h3>
                 <div class="footer-row">
                     <div class="footer-col">
-                        <img src="images/email.svg" alt="">
+                        <img class="footer-img" src="images/email.svg" alt="Email">
                         Email us
                     </div>
                     <div class="footer-col">
-                        <img src="images/call.svg" alt="">
+                        <img class="footer-img" src="images/call.svg" alt="Phone">
                         Call us
                     </div>
                     <div class="footer-col">
-                        <img class="footer-img" src="images/chat.svg" alt="">
+                        <img class="footer-img" src="images/chat.svg" alt="Chat">
                         Chat
                     </div>
                 </div>
